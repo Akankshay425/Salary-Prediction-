@@ -29,6 +29,7 @@ if predict:
 
     X1=np.array([X])
     prediction=model.predict(X1)[0]
-    st.write("Salary prediction is ", prediction:,.2f")
+    st.write(f"Salary prediction is {prediction:.2f}")
 else:
+
     st.write("Please press the button for app to make the prediction")
